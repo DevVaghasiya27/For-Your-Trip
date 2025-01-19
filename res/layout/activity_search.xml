@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/searchbg"
+    tools:context=".Search">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ahmedabad"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_25sdp"/>
+
+
+    <AutoCompleteTextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:hint="@string/SearchForPlace"
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:id="@+id/searchPlace"/>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:hint="Enter Your Mobile NO."
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:id="@+id/mobileNo"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:hint="Enter Your Name."
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/pass"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:hint="Re-enter Your Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:id="@+id/pass2"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittext_outline"
+        android:textColorHint="#BAB6B6"
+        android:textColor="@color/black"
+        android:hint="Enter Your Pin Code"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:id="@+id/pinCode"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/signUp"/>
+
+</LinearLayout>
